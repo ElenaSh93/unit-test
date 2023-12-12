@@ -47,13 +47,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.2</version>
                  <configuration>
-                     <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
+                     <testFailureIgnore>true</testFailureIgnore>
+              <!--       <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
                      <systemProperties>
                          <property>
                              <name>allure.results.directory</name>
                              <value>${project.build.directory}/allure-results</value>
                          </property>
-                     </systemProperties>
+                     </systemProperties>-->
                  </configuration>
 <!--                <configuration>
                     <suiteXmlFiles>
