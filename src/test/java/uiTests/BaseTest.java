@@ -27,7 +27,7 @@ public class BaseTest {
     @AfterSuite
     public void afterAll() {
         Selenide.closeWebDriver();
-        System.exit(0);
+        //System.exit(0);
     }
 
 }
