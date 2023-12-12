@@ -28,7 +28,7 @@ public class HybridVehicleTest extends BaseTest {
     @Test(priority = 3, description = "Тест проверяет наличие записи \"Комбинированная энергоустановка параллельного типа\"",
             testName = "Проверка наличия записи \"Комбинированная энергоустановка параллельного типа\"")
     public void hybrid_test3() {
-        Assert.assertTrue(!page.isDisplayedRecord_2(), "не найдено записи \"Комбинированная энергоустановка параллельного типа\"");
+        Assert.assertTrue(page.isDisplayedRecord_2(), "не найдено записи \"Комбинированная энергоустановка параллельного типа\"");
     }
 
     @Test(priority = 4, description = "Тест проверяет наличие атрибута \"Тип гибридного транспортного средства\" в дереве характеристик",
