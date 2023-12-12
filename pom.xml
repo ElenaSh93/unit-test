@@ -57,7 +57,7 @@
                  </configuration>-->
                 <configuration>
                     <suiteXmlFiles>
-                        \target\testNG.xml
+                        \Users\Elena\IdeaProjects\unit-test\target\testNG.xml
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
